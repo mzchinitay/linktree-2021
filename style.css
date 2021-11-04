@@ -1,0 +1,90 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,
+:after,
+::before {
+    box-sizing: inherit;
+}
+
+body{
+    background-image: url(./assets/beach.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    max-width: 100%;
+    min-height: 100vh;
+    height: auto;
+    letter-spacing: 0.1em;
+}
+
+.profile-picture { 
+    width: 150px;
+}
+
+.links_item {
+    display: block;
+    max-width: 550px;
+    margin: 0 auto 15px;
+    margin-bottom: 5px;
+    padding: 15px 20px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    color: black;
+}
+.links_item .links-store {
+    border-bottom: 3px solid #80d6ff;
+    box-shadow: inset 0 -4px 0 #80d6ff;
+    border-radius: 25px;
+    border: 2px solid #80d6ff;
+    background-color: #80d6ff;
+}
+
+.links_item .links-cv {
+    border-bottom: 3px solid #73e2a7;
+    box-shadow: inset 0 -4px 0 #73e2a7;
+    border-radius: 25px;
+    border: 2px solid #73e2a7;
+    background-color: #73e2a7;
+}
+
+.links_item .links-page {
+    border-bottom: 3px solid #fed766;
+    box-shadow: inset 0 -4px 0 #fed766;
+    border-radius: 25px;
+    border: 2px solid #fed766;
+    background-color: #fed766  ;
+}
+
+.links_item .links-social {
+    border-bottom: 3px solid #ffa093;
+    box-shadow: inset 0 -4px 0 #ffa093;
+    border-radius: 25px;
+    border: 2px solid #ffa093;
+    background-color: #ffa093  ;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #7eaba6;
+}
+
